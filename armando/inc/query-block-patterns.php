@@ -18,7 +18,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
 			'blockTypes' => array( 'core/query' ),
 			'content'    => '
 			<!-- wp:query {"queryId":1,"query":{"pages":"100","offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","exclude":[],"perPage":6,"inherit":true},"layout":{"type":"flex","columns":3}} -->
-			<!-- wp:query-loop -->
+			<!-- wp:post-template -->
 			<!-- wp:post-title {"isLink":true} /-->
 			<!-- wp:group {"className":"is-style-armando-box-shadow post-meta","backgroundColor":"light-grey"} -->
 			<div class="wp-block-group is-style-armando-box-shadow post-meta has-light-grey-background-color has-background">
@@ -37,7 +37,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
 			<!-- wp:spacer {"height":20} -->
 			<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
-			<!-- /wp:query-loop -->
+			<!-- /wp:post-template -->
 			<!-- wp:query-pagination -->
 			<div class="wp-block-query-pagination">
 				<!-- wp:query-pagination-previous /-->
